@@ -1,0 +1,27 @@
+.isUnread{
+    width: 13px;
+    height:13px;
+    background-color:red;
+    border-radius: 100vmax;
+    display :block;
+}
+.container{
+background-color: rgb(210, 255, 127);
+margin-left: 15%;
+justify-content: center;
+
+}
+#anchorTag{
+    color: white;
+}
+img{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+}
+.content
+{
+    background-color: white;
+    color: black;
+
+}

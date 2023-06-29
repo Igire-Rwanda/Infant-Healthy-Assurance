@@ -12,6 +12,7 @@ import Highlightspage from "./Pages/Bloadcastpage"
 import BroadcastingPage from "./Pages/BroadcastingPage";
 import Page2 from "./Components/Bloadcast-page/page2"
 import Appointments from "./Pages/Appointment";
+import Notification from "./Pages/Notification";
 
 import Page3 from "./Components/Bloadcast-page/page3";
 import Page4 from "./Components/Bloadcast-page/page4"
@@ -78,6 +79,10 @@ const router = createBrowserRouter([
 {
   path:"/appointments",
   element:<Appointments/>
+},
+{
+  path:"/Notification",
+  element:<Notification/>
 }
 ])
 root.render(
